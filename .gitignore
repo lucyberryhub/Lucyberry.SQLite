@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+# 🍓 Sweet & Berry Nice .gitignore for LucyBerryHelper Class 🍒
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore those berry-stained build outputs (we keep it fresh and clean!) 🍓✨
+bin/ 🍓🍒
+obj/ 🍇🍓
+.vs/ 🍒
 
-# Precompiled Headers
-*.gch
-*.pch
+# No need for Property folders, they're a bit too much for our sweet project! 🍓💅
+Properties/ 🍰🍓
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Say no-no to project files in git, like your last year's fashion choices! 👗💅
+*.csproj 🍒✨
+*.sln 🍓💖
 
-# Fortran module files
-*.mod
-*.smod
+# Packages folder? Nah, let’s keep it fresh and cool! 💖🍒
+packages/ 🍓🍇🍒
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Keep your workspace cute but tidy, darling! 💖✨
+# You don't need those extra files cluttering your life! 💅
 
-# Executables
-*.exe
-*.out
-*.app
+# Optional but cute: You can add VS Code's folder if you use it! 🍰🌸
+# .vscode/ 🍓🍒
+
+
