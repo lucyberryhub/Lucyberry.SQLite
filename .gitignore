@@ -1,24 +1,24 @@
 # 🍓 Sweet & Berry Nice .gitignore for LucyBerryHelper Class 🍒
 
-# Ignore those berry-stained build outputs (we keep it fresh and clean!) 🍓✨
-bin/ 🍓🍒
-obj/ 🍇🍓
-.vs/ 🍒
+# 🍓🍒 Ignore those berry-stained build outputs (we keep it fresh and clean!) 🍓✨
+bin/
+obj/
+.vs/
 
-# No need for Property folders, they're a bit too much for our sweet project! 🍓💅
-Properties/ 🍰🍓
+# 🍰🍓 No need for Property folders, they're a bit too much for our sweet project! 🍓💅
+Properties/
 
-# Say no-no to project files in git, like your last year's fashion choices! 👗💅
-*.csproj 🍒✨
-*.sln 🍓💖
+# 🍓💖🍒✨ Say no-no to project files in git, like your last year's fashion choices! 👗💅
+*.csproj
+*.sln
 
-# Packages folder? Nah, let’s keep it fresh and cool! 💖🍒
-packages/ 🍓🍇🍒
+# 🍓🍇🍒 Packages folder? Nah, let’s keep it fresh and cool! 💖🍒
+packages/
 
 # Keep your workspace cute but tidy, darling! 💖✨
 # You don't need those extra files cluttering your life! 💅
 
-# Optional but cute: You can add VS Code's folder if you use it! 🍰🌸
-# .vscode/ 🍓🍒
+# 🍓🍒 Optional but cute: You can add VS Code's folder if you use it! 🍰🌸
+# .vscode/
 
 
