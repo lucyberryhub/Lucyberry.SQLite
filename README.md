@@ -72,13 +72,13 @@ var data = new List<Dictionary<string, object>>
     new Dictionary<string, object> { { "Name", "Cherry" }, { "Type", "Fruit" } },  
 };  
 
-await helper.InsertDataAsync("Products", data);  
+await simpleBerryHelper.InsertDataAsync("Products", data);  
 ```  
 
 #### 💖 Insert Data and Fetch the Last Berry ID  
 
 ```csharp  
-int lastId = await helper.InsertReturnDataAsync("Products", data);  
+int lastId = await simpleBerryHelper.InsertReturnDataAsync("Products", data);  
 Console.WriteLine($"🍓 Last inserted ID: {lastId}");  
 ```  
 
@@ -89,7 +89,7 @@ Console.WriteLine($"🍓 Last inserted ID: {lastId}");
 #### 🌸 Read All Rows (Get All the Berries!)  
 
 ```csharp  
-var rows = await helper.ReadAllDataAsync("Products");  
+var rows = await simpleBerryHelper.ReadAllDataAsync("Products");  
 foreach (var row in rows)  
 {  
     Console.WriteLine(string.Join(", ", row.Select(kvp => $"{kvp.Key}: {kvp.Value}")));  
@@ -100,7 +100,7 @@ foreach (var row in rows)
 
 ```csharp  
 var conditions = new Dictionary<string, object> { { "Type", "Berry" } };  
-var rowsWithConditions = await helper.ReadDataAsync("Products", conditions);  
+var rowsWithConditions = await simpleBerryHelper.ReadDataAsync("Products", conditions);  
 ```  
 
 ---
@@ -113,7 +113,7 @@ var rowsWithConditions = await helper.ReadDataAsync("Products", conditions);
 var updatedValues = new Dictionary<string, object> { { "Name", "Sweet Lucyberry" } };  
 var conditions = new Dictionary<string, object> { { "Name", "Lucyberry" } };  
 
-await helper.UpdateDataAsync("Products", updatedValues, conditions);  
+await simpleBerryHelper.UpdateDataAsync("Products", updatedValues, conditions);  
 ```  
 
 ---
@@ -123,7 +123,7 @@ await helper.UpdateDataAsync("Products", updatedValues, conditions);
 ```csharp  
 var conditions = new Dictionary<string, object> { { "Name", "Lucyberry" } };  
 
-await helper.DeleteDataAsync("Products", conditions);  
+await simpleBerryHelper.DeleteDataAsync("Products", conditions);  
 ```  
 
 ---
